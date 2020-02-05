@@ -1,0 +1,11 @@
+framework module SizeNFit {
+  umbrella header "SizeNFit.h"
+
+  export *
+  module * { export * }
+}
+
+module SizeNFit.Swift {
+    header "SizeNFit-Swift.h"
+    requires objc
+}
