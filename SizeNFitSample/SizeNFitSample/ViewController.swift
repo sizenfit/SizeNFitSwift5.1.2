@@ -13,7 +13,22 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        let htWt = HeightWeightCalculationViewController().instance()
+
+
+        let nav = UINavigationController(rootViewController: htWt)
+
+        nav.navigationBar.isHidden = true
+
+        addChild(nav)
+
+       view.addSubview(nav.view)
+
+        nav.didMove(toParent: self)
     }
+    
+    
 
 
 }
