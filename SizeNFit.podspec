@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SizeNFit'
-  s.version          = '1.0.0'
+  s.version          = '2.0.3'
   s.summary          = 'SizeNFit Widget in Swift'
 
 # This description is used to generate tags and improve search results.
@@ -37,7 +37,6 @@ s.homepage = 'https://github.com/sizenfit/SizeNFitSwift5.1.2'
   #   'SizeNFitMojave' => ['SizeNFitMojave/Assets/*.png']
   # }
   # s.platform     = :ios, "9.0"
-  s.static_framework = true
   s.ios.vendored_frameworks = 'SizeNFit.framework'
   s.frameworks = 'UIKit', 'MapKit'
   # s.public_header_files = 'Pod/Classes/**/*.h'
